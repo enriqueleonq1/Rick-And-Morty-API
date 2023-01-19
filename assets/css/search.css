@@ -1,0 +1,49 @@
+.search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding-top: 25px;
+    font-family: system-ui;
+}
+
+.search label {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #eaddcf;
+}
+
+.search input {
+    padding: 10px 20px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #1b2735;
+}
+
+.error-view {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 20px 0;
+}
+
+.error-view p {
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #eaddcf;
+    text-align: baseline;
+}
+
+.error-view img {
+    object-fit: contain;
+    width: 30px;
+}
+
+.error-hidden {
+    display: none;
+}
+
+.hidde {
+    display: none;
+}

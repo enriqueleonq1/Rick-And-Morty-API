@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick And Morty API</title>
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/stars.css">
+    <link rel="stylesheet" href="assets/css/section-characters.css">
+    <link rel="stylesheet" href="assets/css/pagination.css">
+    <link rel="stylesheet" href="assets/css/search.css">
+</head>
+<body>
+    <header>
+        <h1 class="title">Rick And Morty</h1>
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+        <div class="starcraft"></div>
+        <div class="spaceRick">
+        </div>
+        <div class="spaceMorty"></div>
+    </header>
+
+    <section class="characters">
+
+        <section class="search">
+            <label for="search">Find Character</label>
+            <input type="text" id="search">
+            <div class="error-hidden" id="displayError">
+                <p>no results</p>
+                <img src="assets/images/error.png" alt="error img">
+            </div>
+        </section>
+
+
+        <section class="characters-section" id="characterSection" > 
+            <h3 class="section-title">Characters</h3>
+            <div class="grid-card">
+            </div>
+        </section>
+
+    </section>
+
+    <section class="pagination" id="paginationSection">
+        <button id="prev">prev</button>
+        <span class="page">1</span>
+        <button id="next">next</button>
+    </section>
+
+    <script src="assets/js/callAPI.js"></script>
+</body>
+</html>

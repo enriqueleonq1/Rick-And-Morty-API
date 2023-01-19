@@ -1,0 +1,28 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+    align-items: center;
+    gap: 15px;
+    font-family: system-ui;
+}
+
+.pagination button {
+    padding: 10px 25px;
+    background-color: #1b2735;
+    border: 1px solid #00B5CC;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #eaddcf;
+}
+
+.pagination button:hover {
+    background-color: #eaddcf;
+    color: #00B5CC;
+}
+
+.pagination .page {
+    color: #eaddcf;
+    font-size: 2rem;
+    font-weight: 700;
+}
